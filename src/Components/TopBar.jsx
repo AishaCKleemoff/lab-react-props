@@ -1,4 +1,6 @@
-export default function TopBar() {
+import React from "react";
+
+function TopBar() {
   return (
     <header>
       <h1>
@@ -8,3 +10,4 @@ export default function TopBar() {
     </header>
   );
 }
+export default TopBar;
